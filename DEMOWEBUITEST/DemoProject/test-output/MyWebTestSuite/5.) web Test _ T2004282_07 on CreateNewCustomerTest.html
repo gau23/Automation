@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  5.) web Test : T2004282_07 on CreateNewCustomerTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>5.) web Test : T2004282_07 on CreateNewCustomerTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 25 22:39:18 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>59 seconds (59045 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.Tests.CreateNewCustomerTest.TC01_LogIntoTheApplication()'><b>TC01_LogIntoTheApplication</b><br>Test class: com.test.Tests.CreateNewCustomerTest<br>Parameters: T2004282_07<br/>
+<a href="#Output-2069016970" onClick='toggleBox("Output-2069016970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2069016970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2069016970">
+✔ Clicked Element [[ChromeDriver: chrome on WINDOWS (5f11c51590ab2c8bdd1cfd027a897fac)] -> name: btnLogin] Successfully!<br/>
+✔ ASSERT PASSED: PageTitle for Guru99 Bank Manager HomePage contains: 'Guru99 Bank Manager HomePage'.<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.test.Tests.CreateNewCustomerTest@5b1ebf56</td></tr>
+<tr>
+<td title='com.test.Tests.CreateNewCustomerTest.TC02_AddNewCustomer()'><b>TC02_AddNewCustomer</b><br>Test class: com.test.Tests.CreateNewCustomerTest<br/>
+<a href="#Output-849668686" onClick='toggleBox("Output-849668686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-849668686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-849668686">
+✔ Clicked Element [[ChromeDriver: chrome on WINDOWS (5f11c51590ab2c8bdd1cfd027a897fac)] -> xpath: //*[text()='New Customer']] Successfully!<br/>
+Entered Text Gaurav  in the  element<br/>
+✔ Clicked Element [[ChromeDriver: chrome on WINDOWS (5f11c51590ab2c8bdd1cfd027a897fac)] -> xpath: //input[@value='m']] Successfully!<br/>
+Used key   in the  element<br/>
+Entered Text 12-02-2010  in the dob element<br/>
+Entered Text XYZ  in the  element<br/>
+Entered Text XYZ  in the  element<br/>
+Entered Text XYZ  in the  element<br/>
+Entered Text 110009  in the  element<br/>
+Entered Text 1234567890  in the  element<br/>
+Entered Text XY3Z@gmail.com  in the  element<br/>
+Entered Text XYZgmail  in the  element<br/>
+✔ Clicked Element [[ChromeDriver: chrome on WINDOWS (5f11c51590ab2c8bdd1cfd027a897fac)] -> xpath: //input[@type='submit']] Successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>39</td>
+<td>com.test.Tests.CreateNewCustomerTest@5b1ebf56</td></tr>
+</table><p>
+</body>
+</html>

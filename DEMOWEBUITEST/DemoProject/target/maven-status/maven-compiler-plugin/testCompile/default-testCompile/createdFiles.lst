@@ -1,0 +1,17 @@
+com\test\PageObjects\newCustomerPageObjects.class
+com\test\Tests1\Test4.class
+com\test\Keywords\CommonFunctions.class
+com\test\Tests1\Test3.class
+com\test\Tests1\Test2.class
+com\test\PageObjects\homePageObjects.class
+com\test\Tests1\CTest.class
+com\test\Keywords\NewCustomerFunctions.class
+com\test\PageObjects\loginPageObjects.class
+com\test\Tests\CreateNewCustomerTest.class
+com\varArgs\DynamicVariables.class
+com\test\Keywords\loginPageFunction.class
+com\test\Tests1\random1.class
+com\test\Tests\AnotherExcelComparatorTest.class
+com\test\Tests\DummyDryRunTest.class
+com\test\Tests\RunAllTest.class
+com\test\Tests1\DummyDryRunTest1.class
