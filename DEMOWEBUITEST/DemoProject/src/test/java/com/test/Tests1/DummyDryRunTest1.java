@@ -13,7 +13,6 @@ import com.automation.*;
 import com.test.Keywords.NewCustomerFunctions;
 import com.test.Keywords.loginPageFunction;
 
-import jdk.internal.org.jline.utils.Log;
 
 import com.automation.PreAndPostTestEvents;
 import com.automation.TestDataHandler;
