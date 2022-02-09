@@ -91,11 +91,6 @@
 
 					</executions>
 					<configuration>
-						<argLine>
-							-Dfile.encoding=UTF-8
-							--illegal-access=permit
-						</argLine>
-
 						<skip>false</skip>
 						<testFailureIgnore>true</testFailureIgnore>
 						<suiteXmlFiles>
