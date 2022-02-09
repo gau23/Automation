@@ -10,19 +10,19 @@
       <class name="com.test.Tests1.DummyDryRunTest1"/>
     </classes>
   </test> <!-- 2.) web Test : T2004282_01 on DummyDryRunTest1 -->
-  <test name="1.) web Test : T2004282_01 on DummyDryRunTest1">
+  <test name="2.) web Test : T2004282_01 on DummyDryRunTest1">
     <parameter name="TestCaseID" value="T2004282_01"/>
     <classes>
       <class name="com.test.Tests1.DummyDryRunTest1"/>
     </classes>
   </test> <!-- 3.) web Test : T2004282_01 on DummyDryRunTest1 -->
-  <test name="1.) web Test : T2004282_01 on DummyDryRunTest1">
+  <test name="3.) web Test : T2004282_01 on DummyDryRunTest1">
     <parameter name="TestCaseID" value="T2004282_01"/>
     <classes>
       <class name="com.test.Tests1.DummyDryRunTest1"/>
     </classes>
   </test> <!-- 4.) web Test : T2004282_01 on DummyDryRunTest1 -->
-  <test name="1.) web Test : T2004282_01 on DummyDryRunTest1">
+  <test name="4.) web Test : T2004282_01 on DummyDryRunTest1">
     <parameter name="TestCaseID" value="T2004282_01"/>
     <classes>
       <class name="com.test.Tests1.DummyDryRunTest1"/>
