@@ -94,8 +94,9 @@
 						<skip>false</skip>
 						<testFailureIgnore>true</testFailureIgnore>
 						<suiteXmlFiles>
-						<!--><suiteXmlFile>./src/test/resources/testSuites/${testsuite}.xml</suiteXmlFile--> 
-						<suiteXmlFile>MyMasterSuite.xml</suiteXmlFile> 
+						<!-->suiteXmlFile>./src/test/resources/testSuites/${testsuite}.xml</suiteXmlFile--> 
+						<suiteXmlFile>${testsuite}.xml</suiteXmlFile> 
+						<!-- >suiteXmlFile>MyMasterSuite.xml</suiteXmlFile--> 
 						
 						</suiteXmlFiles> 
 					</configuration>
